@@ -9,7 +9,7 @@ class Shoe
     BRANDS << @brand if !BRANDS.include(@brand)
   end
 
-  def brand_setter=(brand)
+  def brand=(brand)
     @brand = brand
     BRANDS << brand
   end
